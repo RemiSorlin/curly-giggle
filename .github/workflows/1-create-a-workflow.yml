@@ -12,6 +12,9 @@ on:
     branches:
       - welcome-workflow
 
+env:
+  BASE_BRANCH_NAME: main
+
 # Reference https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
   # Need `contents: read` to checkout the repository
